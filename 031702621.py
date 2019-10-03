@@ -179,6 +179,6 @@ resultaddress={}
 resultaddress["姓名"]=result[0]
 resultaddress["手机"]=result[1]
 resultaddress["地址"]=result[2]
-resultjson=json.dumps(resultaddress,ensure_ascii=False,indent=4)
+resultjson=json.dumps(resultaddress)
 print(resultjson)
 
